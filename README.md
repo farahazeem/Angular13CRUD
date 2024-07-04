@@ -1,30 +1,29 @@
 # Angular13CRUD
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6. and demonstrate all the CRUD operations along Filter operation using the core Angular/TypeScript principles.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+## Run the App
+To start the json server run these commands on the project's root directory:
 
-## Development server
+    npm install -g json-server 
+    json-server --watch db.json after
+    
+Then run the frontend using npm install & npm start
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## App Layout
+Home Page:
 
-## Code scaffolding
+![image](https://github.com/farahazeem/Angular13CRUD/assets/28639312/c64cee46-4985-433f-97e0-efe9c436c83f)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Add New Product:
+![image](https://github.com/farahazeem/Angular13CRUD/assets/28639312/1085a63c-9c81-4e83-9688-076ef83424ef)
 
-## Build
+Edit Product:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image](https://github.com/farahazeem/Angular13CRUD/assets/28639312/236106e7-8b57-4ee4-af23-810e924b5105)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-////////////////////
-To start the json server run this command: json-server --watch db.json
