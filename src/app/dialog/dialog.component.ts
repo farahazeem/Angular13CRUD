@@ -12,6 +12,7 @@ export class DialogComponent implements OnInit {
   conditionList = ['Brand New', 'Second Hand', 'Refurbished'];
   productForm! : FormGroup
   actionBtn : string = 'Save';
+  title : string = 'Add';
   constructor(private formBuilder: FormBuilder, private api: ApiService, @Inject(MAT_DIALOG_DATA) public editData : any, private dialogRef: MatDialogRef<DialogComponent>) { }
 
   ngOnInit(): void {
@@ -25,6 +26,7 @@ export class DialogComponent implements OnInit {
     })
 
     if(this.editData){
+      this.title = 'Edit';
       this.actionBtn = 'Update';
       this.productForm.controls['productName'].setValue(this.editData.productName);
       this.productForm.controls['category'].setValue(this.editData.category);
