@@ -1,5 +1,5 @@
 # Angular13CRUD
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6. and demonstrate all the CRUD operations using the core Angular/TypeScript principles
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6. and demonstrate all the CRUD operations along Filter operation using the core Angular/TypeScript principles.
 
 ## Run the App
 To start the json server run these commands on the project's root directory: 
